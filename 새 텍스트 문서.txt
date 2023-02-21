@@ -1,0 +1,9 @@
+https://kang-portfolio.vercel.app/ (탑바)
+https://fontello.com/ (아이콘)
+
+탑바 이름태그누르면 메뉴나올수있도록
+
+포폴 마우스오버시 강조되게 
+팝업으로 간단한설명
+
+
