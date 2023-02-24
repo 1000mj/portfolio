@@ -5,20 +5,16 @@ import { useEffect, useRef } from "react";
 function App() {
   return (
     <>
-    <div>
-      <ul className="top-menu"><div></div>
-        <div className='menu-box'><li className="menu"><i class="fa-solid fa-folder-open"></i></li></div>
-        <hr/>
-        <div className='menu-box'><li className="menu"><i class="fa-solid fa-book"></i></li></div>
-        <hr/>
-        <div className='menu-box'><li className="menu"><i class="fa-solid fa-user"></i></li></div>
-        <hr/>
-        <div className='menu-box'><li className="menu"><i class="fa-solid fa-house"></i></li></div>
-        <hr/>
-        <div className='menu-box'><li className="menu top-name">Chun Myeong Jin</li></div>
-      </ul>
-    </div>
     <div className="Background-image">
+      <ul className="top-menu"><div></div>
+          <div className='name-box'><li className="menu top-name">Chun Myeong Jin</li></div>
+        </ul>
+      <div>
+        <div className='menu-box'><li className="side-menu"><i class="fa-solid fa-folder-open"></i></li></div>
+        <div className='menu-box'><li className="side-menu"><i class="fa-solid fa-book"></i></li></div>
+        <div className='menu-box'><li className="side-menu"><i class="fa-solid fa-user"></i></li></div>
+        <div className='menu-box'><li className="side-menu"><i class="fa-solid fa-house"></i></li></div>
+      </div>
       <div className='title'>
         <h1 className="title-text-0">@@@@
         <div className='underline blinking'></div></h1>
@@ -27,14 +23,16 @@ function App() {
         <h1 className="title-text-3 blinking-1">ㅣ</h1>
       </div>
     </div>
-    <div className='Profile'>
-      <div className='Prologo'><i class="fa-solid fa-user fa-5x"></i></div>
-    </div>
-    <div className='Skills'>
-      <div className='Slogo'><i class="fa-solid fa-book fa-5x"></i></div>
-    </div>
-    <div className='Pj'>
-      <div className='Plogo'><i class="fa-solid fa-folder-open fa-5x"></i></div>
+    <div className='content-back'>
+      <div className='Profile'>
+        <div className='Prologo'><i class="fa-solid fa-user fa-5x"></i></div>
+      </div>
+      <div className='Skills'>
+        <div className='Slogo'><i class="fa-solid fa-book fa-5x"></i></div>
+      </div>
+      <div className='Pj'>
+        <div className='Plogo'><i class="fa-solid fa-folder-open fa-5x"></i></div>
+      </div>
     </div>
     </>
   );
