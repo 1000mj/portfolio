@@ -1,37 +1,39 @@
 import './App.css';
 import React from 'react';
-import { useEffect, useRef } from "react";
+import './click.scroll';
+
 
 function App() {
   return (
     <>
-    <div className="Background-image">
-      <ul className="top-menu"><div></div>
-          <div className='name-box'><li className="menu top-name">Chun Myeong Jin</li></div>
-        </ul>
-      <div>
-        <div className='menu-box'><li className="side-menu"><i class="fa-solid fa-folder-open"></i></li></div>
-        <div className='menu-box'><li className="side-menu"><i class="fa-solid fa-book"></i></li></div>
-        <div className='menu-box'><li className="side-menu"><i class="fa-solid fa-user"></i></li></div>
-        <div className='menu-box'><li className="side-menu"><i class="fa-solid fa-house"></i></li></div>
+    <div id='container'>
+      <div data-anchor="Page 1" id='title' className="Background-image" >
+        <ul className="top-menu">
+            <div className='name-box'><li className="menu top-name">Chun Myeong Jin</li></div>
+          </ul>
+        <div>
+          <div className='menu-box '><li className="side-menu"><i class="fa-solid fa-folder-open"></i></li></div>
+          <div className='menu-box '><li className="side-menu"><i class="fa-solid fa-book"></i></li></div>
+          <div className='menu-box'><li className="side-menu"><i class="fa-solid fa-user"></i></li></div>
+          <div className='menu-box'><li className="side-menu"><i class="fa-solid fa-house"></i></li></div>
+        </div>
+        <div className='title'>
+          <h1 className="title-text-0">@@@@
+          <div className='underline blinking'></div></h1>
+          <h1 className="title-text-1">개발자를 꿈꾸는</h1>
+          <h1 className="title-text-2">@@@ 포트폴리오 입니다.</h1>
+          <h1 className="title-text-3 blinking-1">ㅣ</h1>
+        </div>
       </div>
-      <div className='title'>
-        <h1 className="title-text-0">@@@@
-        <div className='underline blinking'></div></h1>
-        <h1 className="title-text-1">개발자를 꿈꾸는</h1>
-        <h1 className="title-text-2">천명진 포트폴리오 입니다.</h1>
-        <h1 className="title-text-3 blinking-1">ㅣ</h1>
-      </div>
-    </div>
-    <div className='content-back'>
-      <div className='Profile'>
+      <div data-anchor="Page 2" id='profile' className='Profile'>
         <div className='Prologo'><i class="fa-solid fa-user fa-5x"></i></div>
       </div>
-      <div className='Skills'>
+      <div data-anchor="Page 3" id='skills' className='Skills '>
         <div className='Slogo'><i class="fa-solid fa-book fa-5x"></i></div>
       </div>
-      <div className='Pj'>
+      <div data-anchor="Page 4" id='pj' className='Pj '>
         <div className='Plogo'><i class="fa-solid fa-folder-open fa-5x"></i></div>
+
       </div>
     </div>
     </>
