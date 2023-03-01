@@ -26,7 +26,9 @@
   100% {opacity: 1;}
 }
 
-
+*{
+  box-sizing: border-box;
+}
 
 body{
   margin:0;
@@ -57,7 +59,7 @@ ul,li{
   display: flex;
   position: absolute;
   background-color:black;
-  height: 40px;
+  height: 100px;
   width: 270px;
   text-align: center;
   margin-top: -10px;
@@ -68,8 +70,9 @@ ul,li{
 }
 
 .top-name{
+  margin-top:-15 px;
   font-weight:bold;
-  color:gray;
+  color:white;
 }
 
 .menu{
