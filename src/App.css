@@ -112,6 +112,7 @@ ul,li{
   padding-top:100px;
 }
 .top-name{
+  margin-top:-15px;
   font-size: 25.2px;
   font-weight: 900;
 }

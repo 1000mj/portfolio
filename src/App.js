@@ -1,13 +1,27 @@
 import './App.css';
 import React from 'react';
-import ClickScroll from './ClickScroll';
+import { useRef } from 'react';
+import useMoveScrool from './ClickScroll'
+
 
 
 function App() {
+  
+  const goodsTabs = {
+    0: useMoveScrool('Main'),
+    1: useMoveScrool('Profile'),
+    2: useMoveScrool('Skills'),
+    3: useMoveScrool('Pj')
+  };
+
   return (
     <>
-    <div id='container'>
-      <div id="content" className="Background-image" >
+    {Array.from(goodsTabs).map((tab, index) => {
+      <div onClick={tab.onMoveToElement}>{tab.name}</div>
+    })}
+
+    <div >
+      <div ref={goodsTabs[0].element} className="Background-image main" >
         <ul className="top-menu">
             <div className='name-box'><li className="menu top-name">Cheon Myeong Jin</li></div>
           </ul>
@@ -25,13 +39,13 @@ function App() {
           <h1 className="title-text-3 blinking-1">ㅣ</h1>
         </div>
       </div>
-      <div id="content" className='Profile'>
+      <div ref={goodsTabs[1].element} className='Profile'>
         <div className='Prologo'><i class="fa-solid fa-user fa-5x"></i></div>
       </div>
-      <div id="content" className='Skills '>
+      <div ref={goodsTabs[2].element} className='Skills '>
         <div className='Slogo'><i class="fa-solid fa-book fa-5x"></i></div>
       </div>
-      <div id="content" className='Pj '>
+      <div ref={goodsTabs[3].element} className='Pj '>
         <div className='Plogo'><i class="fa-solid fa-folder-open fa-5x"></i></div>
 
       </div>
