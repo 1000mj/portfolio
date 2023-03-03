@@ -26,6 +26,15 @@
   100% {opacity: 1;}
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+
 *{
   box-sizing: border-box;
 }
@@ -98,7 +107,13 @@ ul,li{
   margin-top: 15px;
 }
 
-
+.section{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 5px;
+  text-decoration: underline;
+}
 
 .menu-box{
   text-align: center;
@@ -212,7 +227,7 @@ h1{
   color:#183153;
 }
 .Prologo::after{
-  content: "Profile │";
+  content: "│";
   position: relative;
   font-weight: bold;
   font-size: 4rem;
@@ -233,7 +248,7 @@ h1{
   border-radius: 20px;
 }
 .Slogo::after{
-  content: "Skills │";
+  content: "│";
   position: relative;
   font-weight: bold;
   font-size: 4rem;
@@ -259,7 +274,7 @@ h1{
   border-radius: 20px;
 }
 .Plogo::after{
-  content: "Project │";
+  content: "│";
   position: relative;
   font-weight: bold;
   font-size: 4rem;
