@@ -25,6 +25,7 @@ function App() {
           <h1 className="title-text-2">@@@ 포트폴리오 입니다.</h1>
           <h1 className="title-text-3 blinking-1">ㅣ</h1>
         </div>
+        
       </div>
       <div className='section'>
         Profile
