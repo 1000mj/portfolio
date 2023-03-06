@@ -1,8 +1,7 @@
-import './App.css';
 import React from 'react';
-import { useRef } from 'react';
+import topname from './popup/topname-pu';
 
-
+import './App.css';
 
 function App() {
   return (
@@ -10,8 +9,9 @@ function App() {
     <div >
       <div id='Home' className="Background-image main" >
         <ul className="top-menu">
-            <div className='name-box'><li className="menu top-name">Cheon Myeong Jin</li></div>
+            <div className='name-box'><li className="menu top-name" id='root'>Cheon Myeong Jin</li></div>
           </ul>
+          <topname/>
         <div>
           <div className='menu-box'><li className="side-menu"><a href="#Home" class="fa-solid fa-house"></a></li></div>
           <div className='menu-box'><li className="side-menu"><a href="#Profile" class="fa-solid fa-user"></a></li></div>
@@ -25,7 +25,6 @@ function App() {
           <h1 className="title-text-2">@@@ 포트폴리오 입니다.</h1>
           <h1 className="title-text-3 blinking-1">ㅣ</h1>
         </div>
-        
       </div>
       <div className='section'>
         Profile

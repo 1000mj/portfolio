@@ -40,7 +40,6 @@ a{
   list-style: none;
   text-decoration: none;
   border-collapse: collapse;
-  color: #000;
   margin: 0px;
   padding: 0px;
 }
@@ -53,7 +52,7 @@ body{
   -moz-user-select:none;
   -ms-user-select:none;
   user-select:none;
-  background-color:white;
+  background-color: black;
 }
 
 ul,li{
@@ -120,6 +119,7 @@ ul,li{
   margin-top: 5px;
   text-decoration: double underline;
   text-decoration-thickness: 4px;
+  color:white
 }
 
 .menu-box{
@@ -176,7 +176,7 @@ h1{
   font-size: 4rem;
   line-height: 5;
   letter-spacing:0.1rem;
-  color: gray;
+  color: white;
 }
 
 .title-text-1{
@@ -186,7 +186,7 @@ h1{
   font-size: 4rem;
   line-height: 5;
   letter-spacing:0.1rem;
-  color: gray;
+  color: white;
 }
 
 .title-text-2{
@@ -196,7 +196,7 @@ h1{
   font-size: 4rem;
   line-height: 5;
   letter-spacing:0.1rem;
-  color: gray;
+  color: white;
 }
 
 .title-text-3{
@@ -206,7 +206,7 @@ h1{
   font-size: 4rem;
   line-height: 5;
   letter-spacing:0.1rem;
-  color: gray;
+  color: white;
 }
 
 .underline{
@@ -217,7 +217,7 @@ h1{
 
 
 .Profile{
-  background-color: gray;
+  background-color: white;
   margin-top: 30px;
   margin-left: 20px;
   height: 100vh;
@@ -230,7 +230,7 @@ h1{
 .Prologo{
   margin-left: 100px;
   padding-top: 400px;
-  color:#183153;
+  color:black;
 }
 .Prologo::after{
   content: "";
@@ -243,7 +243,7 @@ h1{
 }
 
 .Skills{
-  background-color: gray;
+  background-color: white;
   margin-top: 30px;
   margin-left: 20px;
   height: 100vh;
@@ -265,11 +265,11 @@ h1{
 .Slogo{
   margin-left: 100px;
   padding-top: 400px;
-  color:#183153;
+  color:black;
 }
 
 .Pj{
-  background-color: gray;
+  background-color: white;
   margin-top: 30px;
   margin-left: 20px;
   height: 100vh;
@@ -291,5 +291,5 @@ h1{
 .Plogo{
   margin-left: 100px;
   padding-top: 400px;
-  color:#183153;
+  color:black;
 }
