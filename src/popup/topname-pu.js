@@ -1,22 +1,32 @@
 import React, { useState } from "react";
 import * as ReactDOM from "react-dom";
-import App from "../App";
 
-function topname() {
-  const container = "10px solid red";
-  const [popupVisible, setPopupVisible] = useState(true);
+function Topname() {
+  const border = "10px solid red";
+  const [popupVisible, setPopupVisible] = useState(false);
 
   return (
     <>
-      {popupVisible || <button onClick={() => setPopupVisible(true)}></button>}
-      {popupVisible && <button onClick={() => setPopupVisible(false)}></button>}
-      <hr />
+      <button onClick={() => setPopupVisible(!popupVisible)}>
+        <div className="menu top-name">Cheon Myeong Jin</div>
+      </button>
+      {`popupVisible : ${popupVisible}`}
       {popupVisible && (
-        <div style={{ width: 500, height: 500, container }}></div>
+        <div
+          className="popup1"
+          style={{
+            marginRight: 100,
+            overflow: "hidden",
+            width: 100,
+            height: 100,
+            opacity: 0,
+            border
+          }}
+        ></div>
       )}
     </>
   );
 }
 
-ReactDOM.render(<topname />, document.getElementById("root"));
-export default topname;
+ReactDOM.render(<Topname />, document.getElementById("root"));
+export default Topname;

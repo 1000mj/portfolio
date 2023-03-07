@@ -1,5 +1,5 @@
 import React from 'react';
-import topname from './popup/topname-pu';
+import Topname from './popup/Topname-pu';
 
 import './App.css';
 
@@ -9,9 +9,10 @@ function App() {
     <div >
       <div id='Home' className="Background-image main" >
         <ul className="top-menu">
-            <div className='name-box'><li className="menu top-name" id='root'>Cheon Myeong Jin</li></div>
+            <div className='name-box'>
+              <Topname/>
+            </div>
           </ul>
-          <topname/>
         <div>
           <div className='menu-box'><li className="side-menu"><a href="#Home" class="fa-solid fa-house"></a></li></div>
           <div className='menu-box'><li className="side-menu"><a href="#Profile" class="fa-solid fa-user"></a></li></div>

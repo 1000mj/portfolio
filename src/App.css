@@ -61,6 +61,15 @@ ul,li{
   padding:0;
 }
 
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  color:white;
+  border: 0;
+}
+
 .Background-image {
   background-image: url(background.jpg);
   height: 100vh;
@@ -136,6 +145,11 @@ ul,li{
   margin-top:-15px;
   font-size: 25.2px;
   font-weight: 900;
+}
+.popup1{
+  background-color: white;
+  width: 500;
+  height: 500;
 }
 
 .menu-box>.side-menu:hover{
