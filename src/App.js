@@ -9,10 +9,11 @@ function App() {
     <div >
       <div id='Home' className="Background-image main" >
         <ul className="top-menu">
-            <div className='name-box'>
-              <Topname/>
+            <div  className='name-box'>
+              <div id='root' className="menu top-name">Cheon Myeong Jin</div>
             </div>
           </ul>
+          <Topname/>
         <div>
           <div className='menu-box'><li className="side-menu"><a href="#Home" class="fa-solid fa-house"></a></li></div>
           <div className='menu-box'><li className="side-menu"><a href="#Profile" class="fa-solid fa-user"></a></li></div>

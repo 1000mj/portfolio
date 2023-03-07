@@ -2,24 +2,19 @@ import React, { useState } from "react";
 import * as ReactDOM from "react-dom";
 
 function Topname() {
-  const border = "10px solid red";
-  const [popupVisible, setPopupVisible] = useState(false);
+  const border = "10px solid white";
+  const [popupVisible, setPopupVisible] = useState(true);
 
   return (
     <>
       <button onClick={() => setPopupVisible(!popupVisible)}>
-        <div className="menu top-name">Cheon Myeong Jin</div>
+        <div></div>
       </button>
       {`popupVisible : ${popupVisible}`}
       {popupVisible && (
         <div
           className="popup1"
           style={{
-            marginRight: 100,
-            overflow: "hidden",
-            width: 100,
-            height: 100,
-            opacity: 0,
             border
           }}
         ></div>
