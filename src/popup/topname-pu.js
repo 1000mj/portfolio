@@ -1,24 +1,22 @@
 import React, { useState } from "react";
 import * as ReactDOM from "react-dom";
 
-function Topname() {
+function Topname(props) {
   const border = "10px solid white";
-  const [popupVisible, setPopupVisible] = useState(true);
+  const { onClose } = props;
 
   return (
     <>
-      <button onClick={() => setPopupVisible(!popupVisible)}>
-        <div></div>
-      </button>
-      {`popupVisible : ${popupVisible}`}
-      {popupVisible && (
-        <div
-          className="popup1"
-          style={{
-            border
-          }}
-        ></div>
-      )}
+      <div
+        className="popup1"
+        style={{
+          border
+        }}
+      >
+        <button onClick={onClose}>
+          <div>X</div>
+        </button>
+      </div>
     </>
   );
 }
