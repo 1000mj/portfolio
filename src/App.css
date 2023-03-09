@@ -130,6 +130,7 @@ button {
   font-size: 25.2px;
   font-weight: 900;
 }
+
 .close1{
   position: absolute;
   top: 20px;
@@ -139,6 +140,7 @@ button {
   background-color:black;
   border-radius: 50%;
   transform: rotate(-45deg);
+  cursor: pointer; 
 }
 .close2{
   position: absolute;
@@ -149,9 +151,12 @@ button {
   background-color:black;
   border-radius: 50%;
   transform: rotate(45deg);
+  cursor: pointer; 
 }
 
 .popup1{
+  transition: transform 0.4s;
+  transform:scale(1.1);
   border-radius: 30px;
   position:absolute;
   padding:30px;
@@ -348,7 +353,7 @@ h1{
   margin-top: 50px;
   height: 250px;
   width: 100%;
-  background-image:url(https://i.ibb.co/LQTTdLK/background-img.jpg);
+  background-image:url(https://i.ibb.co/pf9v82B/contact-back.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -358,4 +363,12 @@ h1{
   font-size: 3rem;
   top:35%;
   left: 10%;
+}
+.con-phone{
+  display:inline;
+  position: relative;
+  font-size: 2rem;
+  left:40%;
+  top:10%;
+  font-weight: bold;
 }

@@ -38,27 +38,27 @@ function App() {
           <h1 className="title-text-3">ㅣ</h1>
         </div>
       </div>
-    <div className='section'>
+    <div id='Profile' className='section'>
       Profile
     </div>
-    <div id='Profile' className='Profile'>
+    <div  className='Profile'>
       <div className='Prologo'><i className="fa-solid fa-user fa-5x"></i></div>
     </div>
-    <div className='section'>
+    <div id='Skills' className='section'>
       Skills
     </div>
-    <div id='Skills' className='Skills '>
+    <div className='Skills '>
       <div className='Slogo'><i className="fa-solid fa-book fa-5x"></i></div>
     </div>
-    <div className='section'>
+    <div id='Pj' className='section'>
       Project
     </div>
-    <div id='Pj' className='Pj '>
+    <div className='Pj '>
       <div className='Plogo'><i className="fa-solid fa-folder-open fa-5x"></i></div>
     </div>
       <div className='contact'>
         <div className='con-text'>Contact</div>
-        <div className='con-phone'>Phone  010-4688-7738</div>
+        <div className='con-phone'>Phone │ 010-4688-7738<br/><br/>E-mail │ cjsaudwls12@naver.com  /  cjsaudwls12@gmail.com</div>
       </div>
     </div>
     </>
