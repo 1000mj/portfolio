@@ -25,17 +25,17 @@ function App() {
           </ul>
           {isShowPopup && <Topname onClose={closePopup} />}
         <div>
-          <div className='menu-box'><li className="side-menu"><a href="#Home" className="fa-solid fa-house"></a></li></div>
-          <div className='menu-box'><li className="side-menu"><a href="#Profile" className="fa-solid fa-user"></a></li></div>
-          <div className='menu-box '><li className="side-menu"><a href="#Skills" className="fa-solid fa-book"></a></li></div>
-          <div className='menu-box '><li className="side-menu"><a href="#Pj" className="fa-solid fa-folder-open"></a></li></div>
+          <div className='menu-box'><li className="side-menu"><a href="#Home" className="side-logo fa-solid fa-house"></a></li></div>
+          <div className='menu-box'><li className="side-menu"><a href="#Profile" className="side-logo fa-solid fa-user"></a></li></div>
+          <div className='menu-box '><li className="side-menu"><a href="#Skills" className="side-logo fa-solid fa-book"></a></li></div>
+          <div className='menu-box '><li className="side-menu"><a href="#Pj" className="side-logo fa-solid fa-folder-open"></a></li></div>
         </div>
         <div className='title'>
           <h1 className="title-text-0">@@@@
-          <div className='underline blinking'></div></h1>
+          <div className='underline'></div></h1>
           <h1 className="title-text-1">개발자를 꿈꾸는</h1>
           <h1 className="title-text-2">@@@ 포트폴리오 입니다.</h1>
-          <h1 className="title-text-3 blinking-1">ㅣ</h1>
+          <h1 className="title-text-3">ㅣ</h1>
         </div>
       </div>
       <div className='section'>
