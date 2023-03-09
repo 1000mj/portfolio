@@ -27,6 +27,7 @@ body{
   margin:0;
   padding:0;
   height: 3000px;
+  width: 100%;
   -webkit-user-select:none;
   -moz-user-select:none;
   -ms-user-select:none;
@@ -137,7 +138,6 @@ button {
   height: 30px;
   background-color:black;
   border-radius: 50%;
-  
   transform: rotate(-45deg);
 }
 .close2{
@@ -178,10 +178,14 @@ button {
 .tn-popup{
   position: absolute;
   color:white;
-  top:25%;
+  top:35%;
   left:180px;
 }
-
+.com{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
 .menu-box>.side-menu:hover{
   transition: transform 0.4s;
   transform:scale(1.1);
@@ -337,4 +341,21 @@ h1{
   margin-left: 100px;
   padding-top: 400px;
   color:black;
+}
+
+.contact{
+  border-radius: 10px 10px 0 0;
+  margin-top: 50px;
+  height: 250px;
+  width: 100%;
+  background-image:url(https://i.ibb.co/LQTTdLK/background-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.con-text{
+  display:inline;
+  position: relative;
+  font-size: 3rem;
+  top:35%;
+  left: 10%;
 }

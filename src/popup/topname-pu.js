@@ -8,9 +8,12 @@ function Topname(props) {
     <>
       <div className="popup1">
         <button onClick={onClose}>
-          <div className="close1"></div>
-          <div className="close2"></div>
+          <div className="close">
+            <div className=" close1"></div>
+            <div className=" close2"></div>
+          </div>
         </button>
+        <div className="com">Communication</div>
         <div className="tn-popup">
           {/* 벨로그 */}
           <a className="tn-vel" href="https://velog.io/@1000mj" target="_blank">
