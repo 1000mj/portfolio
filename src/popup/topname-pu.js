@@ -9,8 +9,7 @@ function Topname(props) {
       <div className="popup1">
         <button onClick={onClose}>
           <div className="close">
-            <div className=" close1"></div>
-            <div className=" close2"></div>
+            <img src="https://i.ibb.co/6Yf8Xhz/close-button.png" />
           </div>
         </button>
         <div className="com">Communication</div>

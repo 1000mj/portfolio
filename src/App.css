@@ -130,29 +130,17 @@ button {
   font-size: 25.2px;
   font-weight: 900;
 }
+.close{
+  position: absolute;
+  top:20px;
+  right: 30px;
+  cursor: pointer;
+}
+.close:hover{
+  transform: scale(1.05);
+  transition: transform 0.4s;
+}
 
-.close1{
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  width: 9px;
-  height: 30px;
-  background-color:black;
-  border-radius: 50%;
-  transform: rotate(-45deg);
-  cursor: pointer; 
-}
-.close2{
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  width: 9px;
-  height: 30px;
-  background-color:black;
-  border-radius: 50%;
-  transform: rotate(45deg);
-  cursor: pointer; 
-}
 
 .popup1{
   transition: transform 0.4s;
@@ -360,7 +348,7 @@ h1{
 .con-text{
   display:inline;
   position: relative;
-  font-size: 3rem;
+  font-size: 3.5rem;
   top:35%;
   left: 10%;
 }

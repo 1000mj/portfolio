@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import Topname from './popup/Topname-pu';
+import Profile from './section/Profile';
 
 import './App.css';
+import Skills from './section/Skills';
+import Project from './section/Project';
 
 function App() {
   const [isShowPopup, setIsShowPopup] = useState(false);
@@ -38,24 +41,9 @@ function App() {
           <h1 className="title-text-3">ㅣ</h1>
         </div>
       </div>
-    <div id='Profile' className='section'>
-      Profile
-    </div>
-    <div  className='Profile'>
-      <div className='Prologo'><i className="fa-solid fa-user fa-5x"></i></div>
-    </div>
-    <div id='Skills' className='section'>
-      Skills
-    </div>
-    <div className='Skills '>
-      <div className='Slogo'><i className="fa-solid fa-book fa-5x"></i></div>
-    </div>
-    <div id='Pj' className='section'>
-      Project
-    </div>
-    <div className='Pj '>
-      <div className='Plogo'><i className="fa-solid fa-folder-open fa-5x"></i></div>
-    </div>
+    <Profile/>
+    <Skills/>
+    <Project/>
       <div className='contact'>
         <div className='con-text'>Contact</div>
         <div className='con-phone'>Phone │ 010-4688-7738<br/><br/>E-mail │ cjsaudwls12@naver.com  /  cjsaudwls12@gmail.com</div>
