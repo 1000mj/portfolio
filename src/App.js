@@ -41,9 +41,9 @@ function App() {
           <h1 className="title-text-3">ㅣ</h1>
         </div>
       </div>
-    <Profile/>
-    <Skills/>
-    <Project/>
+      <Profile/>
+      <Skills/>
+      <Project/>
       <div className='contact'>
         <div className='con-text'>Contact</div>
         <div className='con-phone'>Phone │ 010-4688-7738<br/><br/>E-mail │ cjsaudwls12@naver.com  /  cjsaudwls12@gmail.com</div>
