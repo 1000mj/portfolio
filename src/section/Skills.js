@@ -6,14 +6,16 @@ function Skills() {
       <div id="Skills" className="section section-s">
         Skills
       </div>
-      <div className="Skills ">
-        <div className="skills-ico">
-          <img
-            className="icon"
-            src="https://i.ibb.co/6DmsYv0/kakao-5.png"
-            alt="kakao-5"
-            border="0"
-          />
+      <div className="Skills">
+        <div></div>
+        <div className="skills-img">
+          <div className="skills-ico">
+            <img
+              src="https://i.ibb.co/6DmsYv0/kakao-5.png"
+              alt="kakao-5"
+              border="0"
+            />
+          </div>
         </div>
         <div className="center-line"></div>
       </div>
