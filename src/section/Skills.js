@@ -7,12 +7,12 @@ function Skills() {
         Skills
       </div>
       <div className="Skills">
-        <div></div>
+        <div className="Tring">Tring / Learning</div>
         <div className="skills-img">
           <div className="skills-ico">
             <img
-              src="https://i.ibb.co/6DmsYv0/kakao-5.png"
-              alt="kakao-5"
+              src="https://i.postimg.cc/bdVbmhrG/css1.png"
+              alt=""
               border="0"
             />
           </div>
