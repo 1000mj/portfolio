@@ -7,13 +7,13 @@ function Skills() {
         Skills
       </div>
       <div className="Skills">
-        <div className="Tring">Tring Learning</div>
+        <div className="Tring">@ @@@</div> {/*사용중인것,공부하고있는것*/}
         <div className="skills-img">
           <div className="skills-ico">
-            <img src="https://i.ibb.co/wBHGJvq/css.png" alt="" border="0" />
+            <img src="https://i.ibb.co/NKkTMyk/html.png" alt="" border="0" />
           </div>
           <div className="skills-ico">
-            <img src="https://i.ibb.co/NKkTMyk/html.png" alt="" border="0" />
+            <img src="https://i.ibb.co/wBHGJvq/css.png" alt="" border="0" />
           </div>
           <div className="skills-ico">
             <img
@@ -26,6 +26,20 @@ function Skills() {
             <img
               src="https://i.ibb.co/b2hV55B/react.png"
               alt="react"
+              border="0"
+            />
+          </div>
+          <div className="skills-ico">
+            <img
+              src="https://i.ibb.co/RPHXpX5/1111pngegg-6.png"
+              alt="1111pngegg-6"
+              border="0"
+            />
+          </div>
+          <div className="skills-ico">
+            <img
+              src="https://i.ibb.co/QMXmgj5/python.png"
+              alt="python"
               border="0"
             />
           </div>

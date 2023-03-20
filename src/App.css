@@ -313,7 +313,18 @@ h1{
 
 .skills-ico:nth-child(4){
   position: relative;
-  top:0;
+  top:-130px;
+  left: 140px;
+}
+.skills-ico:nth-child(5){
+  position: relative;
+  top:-270px;
+  left: 280px;
+}
+.skills-ico:nth-child(6){
+  position: relative;
+  top:-695px;
+  left: 785px;
 }
 
 /* Skills 아이콘 마우스오버효과 */
@@ -355,16 +366,22 @@ h1{
   transition:opacity 0.5s;
 }
 .skills-img>.skills-ico:nth-child(1)::before{ 
-  content:"CSS";
+  content:"HTML";
 }
 .skills-img>.skills-ico:nth-child(2)::before{ 
-  content:"HTML";
+  content:"CSS";
 }
 .skills-img>.skills-ico:nth-child(3)::before{ 
   content:"JavaScript";
 }
 .skills-img>.skills-ico:nth-child(4)::before{ 
   content:"React";
+}
+.skills-img>.skills-ico:nth-child(5)::before{ 
+  content:"TypeScript";
+}
+.skills-img>.skills-ico:nth-child(6)::before{ 
+  content:"Python";
 }
 .skills-img > .skills-ico:hover::after {
   background-color:rgba(0,0,0,.5);
@@ -394,7 +411,7 @@ h1{
   width: 10px;
   height: 110%;
   background-color: black;
-  margin-top:-220px;
+  margin-top:-270px;
   margin-left: 50%;
   position: relative;
 }
