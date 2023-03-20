@@ -313,15 +313,21 @@ h1{
 
 .skills-ico:nth-child(4){
   position: relative;
-  top:-130px;
+  top:-140px;
   left: 140px;
+  margin-left:10px;
 }
 .skills-ico:nth-child(5){
   position: relative;
-  top:-270px;
+  top:-290px;
   left: 280px;
 }
 .skills-ico:nth-child(6){
+  position: relative;
+  top:-695px;
+  left: 785px;
+}
+.skills-ico:nth-child(7){
   position: relative;
   top:-695px;
   left: 785px;
@@ -337,6 +343,7 @@ h1{
 .skills-img>.skills-ico {
   position:relative;
   overflow:hidden;
+  margin-bottom:10px;
 }
 
 .skills-img>.skills-ico::after {
@@ -382,6 +389,9 @@ h1{
 }
 .skills-img>.skills-ico:nth-child(6)::before{ 
   content:"Python";
+}
+.skills-img>.skills-ico:nth-child(7)::before{ 
+  content:"Java";
 }
 .skills-img > .skills-ico:hover::after {
   background-color:rgba(0,0,0,.5);

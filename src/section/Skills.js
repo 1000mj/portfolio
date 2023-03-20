@@ -43,6 +43,13 @@ function Skills() {
               border="0"
             />
           </div>
+          <div className="skills-ico">
+            <img
+              src="https://i.ibb.co/j4Pdz8K/java.png"
+              alt="java"
+              border="0"
+            />
+          </div>
         </div>
         <div className="center-line"></div>
       </div>
