@@ -4,7 +4,17 @@
   }
 }
 
+::-webkit-scrollbar{
+  width: 15px;
+}
 
+::-webkit-scrollbar-track{
+  background-color: black;
+}
+::-webkit-scrollbar-thumb{
+  background-color: white;
+  border-radius: 3px;
+}
 
 html {
   scroll-behavior: smooth;
@@ -421,7 +431,7 @@ h1{
   width: 10px;
   height: 110%;
   background-color: black;
-  margin-top:-270px;
+  margin-top:-255px;
   margin-left: 50%;
   position: relative;
 }
