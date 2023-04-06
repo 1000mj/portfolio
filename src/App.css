@@ -419,7 +419,8 @@ h1{
 }
 /* Skills 아이콘 마우스오버효과 끝 */
 
-.Tring{
+.S-T{
+  display: inline-block;
   position: relative;
   left: 3.2%;
   text-align: center;
@@ -473,11 +474,12 @@ h1{
   margin-top: 50px;
   height: 250px;
   width: 100%;
-  background-image:url(https://i.ibb.co/pf9v82B/contact-back.jpg);
+  background-color:#0e0e0e;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .con-text{
+  color:white;
   display:inline;
   position: relative;
   font-size: 3.5rem;
@@ -485,6 +487,7 @@ h1{
   left: 10%;
 }
 .con-phone{
+  color:#f4f4f4;
   display:inline;
   position: relative;
   font-size: 2rem;

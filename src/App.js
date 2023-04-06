@@ -28,10 +28,10 @@ function App() {
           </ul>
           {isShowPopup && <Topname onClose={closePopup} />}
         <div>
-          <div className='menu-box'><li className="side-menu"><a href="#Home" className="side-logo fa-solid fa-house"></a></li></div>
-          <div className='menu-box'><li className="side-menu"><a href="#Profile" className="side-logo fa-solid fa-user"></a></li></div>
-          <div className='menu-box '><li className="side-menu"><a href="#Skills" className="side-logo fa-solid fa-book"></a></li></div>
-          <div className='menu-box '><li className="side-menu"><a href="#Pj" className="side-logo fa-solid fa-folder-open"></a></li></div>
+          <a href="#Home" className='menu-box'><li className="side-menu"><div className="side-logo fa-solid fa-house"></div></li></a>
+          <a href="#Profile" className='menu-box'><li className="side-menu"><div className="side-logo fa-solid fa-user"></div></li></a>
+          <a href="#Skills" className='menu-box '><li className="side-menu"><div className="side-logo fa-solid fa-book"></div></li></a>
+          <a href="#Pj" className='menu-box '><li className="side-menu"><div href="#Pj" className="side-logo fa-solid fa-folder-open"></div></li></a>
         </div>
         <div className='title'>
           <h1 className="title-text-0">@@@@

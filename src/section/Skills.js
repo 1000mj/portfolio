@@ -7,7 +7,11 @@ function Skills() {
         Skills
       </div>
       <div className="Skills">
-        <div className="Tring">@ @@@</div> {/*사용중인것,공부하고있는것*/}
+        <ul className="S-T">
+          <li className="">@</li>
+          <li className="">@</li>
+        </ul>{" "}
+        {/*사용중인것,공부하고있는것*/}
         <div className="skills-img">
           <div className="skills-ico">
             <img src="https://i.ibb.co/NKkTMyk/html.png" alt="" border="0" />
@@ -31,8 +35,8 @@ function Skills() {
           </div>
           <div className="skills-ico">
             <img
-              src="https://i.ibb.co/RPHXpX5/1111pngegg-6.png"
-              alt="1111pngegg-6"
+              src="https://i.ibb.co/TkpPdfQ/typescript.png"
+              alt="typescript"
               border="0"
             />
           </div>
