@@ -8,7 +8,9 @@ function Project() {
       </div>
       <div className="Pj ">
         <div className="Plogo">
-          <i className="fa-solid fa-folder-open fa-5x"></i>
+          <div className="">pj1</div> {/* 팝업처리 */}
+          <div className="">pj2</div>
+          <div className="">pj3</div>
         </div>
       </div>
     </>

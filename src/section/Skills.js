@@ -8,8 +8,8 @@ function Skills() {
       </div>
       <div className="Skills">
         <ul className="S-T">
-          <li className="">@</li>
-          <li className="">@</li>
+          <li className="s1">@</li>
+          <li className="s2">@</li>
         </ul>{" "}
         {/*사용중인것,공부하고있는것*/}
         <div className="skills-img">
