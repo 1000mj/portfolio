@@ -9,9 +9,13 @@ function Profile() {
       <div className="Profile">
         <div className="Prologo">
           <i className="fa-solid fa-user fa-5x"></i>
-          <div className="intro">자기소개 구간</div>
+        </div>
+        <div className="p-section">
+          <h1>ㅇㅇㅇ</h1>
+          <div className="">ㅇㅇㅇ</div>
         </div>
       </div>
+
     </>
   );
 }
