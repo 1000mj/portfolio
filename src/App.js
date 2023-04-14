@@ -34,9 +34,9 @@ function App() {
           <a href="#Pj" className='menu-box '><li className="side-menu"><div href="#Pj" className="side-logo fa-solid fa-folder-open"></div></li></a>
         </div>
         <div className='title'>
-          <h1 className="title-text-0">@@@@
+          <h1 className="title-text-0">도전적인
           <div className='underline'></div></h1>
-          <h1 className="title-text-1">개발자를 꿈꾸는</h1>
+          <h1 className="title-text-1">도전적인 개발을 지향하는</h1>
           <h1 className="title-text-2">@@@ 포트폴리오 입니다.</h1>
           <h1 className="title-text-3">ㅣ</h1>
         </div>
