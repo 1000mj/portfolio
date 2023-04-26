@@ -5,6 +5,7 @@ import Profile from './section/Profile';
 import './App.css';
 import Skills from './section/Skills';
 import Project from './section/Project';
+import './scrollgauge-bar';
 
 function App() {
   const [isShowPopup, setIsShowPopup] = useState(false);
@@ -16,10 +17,11 @@ function App() {
   const closePopup = () => {
     setIsShowPopup(false);
   };
-
+  
   return (
     <>
     <div >
+    <div id='gauge-bar'></div>
       <div id='Home' className="Background-image main" >
         <ul className="top-menu">
             <div  className='name-box'>

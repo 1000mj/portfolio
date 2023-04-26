@@ -45,7 +45,6 @@ body{
 }
 
 
-
 ul,li{
   list-style: none;
   margin:0;
@@ -59,6 +58,11 @@ button {
   background-color: transparent;
   color:red;
   border: 0;
+}
+#gauge-bar {
+  position: fixed;
+  height: 5px;
+  background-color: gray;
 }
 
 .Background-image {
