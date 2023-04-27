@@ -51,14 +51,7 @@ ul,li{
   padding:0;
 }
 
-button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: transparent;
-  color:red;
-  border: 0;
-}
+
 #gauge-bar {
   position: fixed;
   height: 5px;
@@ -174,12 +167,31 @@ button {
   height: 500px;
   z-index: 1;
 }
+
+
 .tn-git{
   margin-left:30px;
 }
 
 .tn-kakao{
   margin-left: 30px;
+}
+
+.com-hover{
+  transition: 1s;
+}
+
+.com-hover:hover{
+  transform: translateY(-30px);
+  transition:1s;
+}
+.com-hover:hover{
+  transform: translateY(-30px);
+  transition:1s;
+}
+.com-hover:hover{
+  transform: translateY(-30px);
+  transition:1s;
 }
 .tn-popup{
   position: absolute;
@@ -408,20 +420,7 @@ h1{
   0px 1px 8px 0px rgb(0 0 0 / 30%);
   border-radius: 20px;
 }
-.Plogo::after{
-  content: "";
-  position: relative;
-  font-weight: bold;
-  font-size: 4rem;
-  top:-10px;
-  left:110px;
-  color:black;
-}
-.Plogo{
-  margin-left: 100px;
-  padding-top: 400px;
-  color:black;
-}
+
 /* Project */
 
 /* contact */

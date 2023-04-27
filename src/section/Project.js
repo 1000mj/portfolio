@@ -7,8 +7,8 @@ function Project() {
         Project
       </div>
       <div className="Pj ">
-        <div className="Plogo">
-          <div className="">pj1</div> {/* 팝업처리 */}
+        <div className="Project">
+          <button className="btn">ㅇㅇ</button>
           <div className="">pj2</div>
           <div className="">pj3</div>
         </div>
