@@ -83,8 +83,9 @@ ul,li{
 
 .top-name{
   margin-top:-15px;
-  font-weight:bold;
   color:white;
+  font-size: 25.2px;
+  font-weight: 900;
 }
 
 .menu{
@@ -136,11 +137,7 @@ ul,li{
   margin-bottom:70px;
   padding-top:100px;
 }
-.top-name{
-  margin-top:-15px;
-  font-size: 25.2px;
-  font-weight: 900;
-}
+
 .close{
   position: absolute;
   top:20px;
@@ -215,6 +212,7 @@ ul,li{
 }
 
 .name-box{
+  transition: 1s;
   display:flex;
   flex-direction: row-reverse;
 }
