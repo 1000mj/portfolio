@@ -6,6 +6,7 @@ import './App.css';
 import Skills from './section/Skills';
 import Project from './section/Project';
 import './scrollgauge-bar';
+import './copy';
 
 function App() {
   const [isShowPopup, setIsShowPopup] = useState(false);
@@ -44,7 +45,7 @@ function App() {
       <Project/>
       <div className='contact'>
         <div className='con-text'>Contact</div>
-        <div className='con-phone'>Phone │ 010-4688-7738<br/><br/>E-mail │ cjsaudwls12@naver.com  /  cjsaudwls12@gmail.com</div>
+        <div className='con-phone'>Phone │ 010-4688-7738<br/><br/>E-mail │ <button className='con-add'>cjsaudwls12@naver.com</button>  /  <button id='copyTarget' className='con-add' onClick='copyText()' >cjsaudwls12@naver.com</button></div>
       </div>
     </div>
     </>
