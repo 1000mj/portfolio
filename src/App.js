@@ -16,7 +16,7 @@ function App() {
   };
 
   const closePopup = () => {
-    setIsShowPopup(false);
+    setIsShowPopup(!isShowPopup);
   };
   
   return (
