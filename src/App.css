@@ -428,6 +428,15 @@ h1{
   border-radius: 20px;
 }
 
+.pj-section{
+  width: 30%;
+  height: 100px;
+  display:flex;
+  justify-content: center;
+  background-color:red;
+  background-repeat: repeat;
+}
+
 /* Project */
 
 /* contact */

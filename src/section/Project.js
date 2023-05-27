@@ -8,9 +8,10 @@ function Project() {
       </div>
       <div className="Pj ">
         <div className="Project">
-          <button className="btn">ㅇㅇ</button>
-          <div className="">pj2</div>
-          <div className="">pj3</div>
+          <div className="pj-section"></div>
+          <div className="pj-section"></div>
+          <div className="pj-section"></div>
+          <div className="pj-section"></div>
         </div>
       </div>
     </>
