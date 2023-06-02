@@ -433,7 +433,7 @@ h1{
   height: 100px;
   display:flex;
   justify-content: center;
-  background-color:red;
+  background-color:black;
   background-repeat: repeat;
 }
 
