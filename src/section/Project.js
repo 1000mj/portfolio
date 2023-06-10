@@ -7,12 +7,53 @@ function Project() {
         Project
       </div>
       <div className="Pj ">
-        <div className="Project">
-          <div className="pj-section1"></div>
-          <div className="pj-section2"></div>
-          <div className="pj-section3"></div>
-          <div className="pj-section4"></div>
+        
+
+  <div class="container">
+      <div class="card">
+        <div class="face face1">
+          <div class="content">
+            1
+          </div>
         </div>
+        <div class="face face2">
+          <div class="content">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+            <button>사이트</button>
+          </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="face face1">
+          <div class="content">
+            2
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+            <button>사이트</button>
+          </div>
+        </div>
+    </div>
+    
+    
+    <div class="card">
+        <div class="face face1">
+          <div class="content">
+            3
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+            <button>사이트</button>
+          </div>
+        </div>
+    </div> 
+  </div>
+
       </div>
     </>
   );
