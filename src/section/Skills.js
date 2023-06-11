@@ -7,7 +7,7 @@ function Skills() {
         Skills
       </div>
       <div className="Skills">
-        <h1 className="s1">사용중</h1>
+        <h1 className="s1">Public</h1>
         {/*사용중인것,공부하고있는것*/}
         <span className="skills-img si-1">
           <div className="skills-ico s-html">
@@ -31,7 +31,7 @@ function Skills() {
             />
           </div>
         </span>
-        <h1 className="s1">공부,시도중</h1>
+        <h1 className="s1">ㅇㅇㅇ</h1>
         <span className="skills-img">
           <div className="skills-ico s-ts">
             <img
