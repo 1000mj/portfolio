@@ -27,7 +27,7 @@ function Project() {
     <div class="card">
         <div class="face face1">
           <div class="content">
-            2
+          <img src="https://i.ibb.co/KsqrnVN/kb-im.png" alt="kb-im" border="0"/>
           </div>
         </div>
         <div class="face face2">
@@ -42,7 +42,7 @@ function Project() {
     <div class="card">
         <div class="face face1">
           <div class="content">
-            3
+            <img src="https://i.ibb.co/TgWxB9Y/Todo-List.png" alt="Todo-List" border="0"/>
           </div>
         </div>
         <div class="face face2">

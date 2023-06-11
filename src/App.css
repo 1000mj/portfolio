@@ -451,7 +451,7 @@ h1{
 
 .container .card .face.face1{
   position: relative;
-  background: #333;
+  background:white;
   display: flex;
   justify-content: center;
   align-content:center;
@@ -466,7 +466,7 @@ h1{
 
 
 .container .card .face.face1 .content{
-  opacity: .2;
+  opacity: 1;
   transition:  0.5s;
   text-align: center;
 }
@@ -495,7 +495,6 @@ h1{
   justify-content: center;
   padding: 20px;
   box-sizing: border-box;
-  box-shadow: 0 20px 50px rgba(0,0,0,.9);
   transform: translateY(-300px);
 }
 
@@ -518,6 +517,9 @@ h1{
   color: white;
 }
 
+.card .face .content img{
+  border:5px solid black;
+}
 /* Project */
 
 /* contact */
