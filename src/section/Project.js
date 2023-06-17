@@ -18,7 +18,7 @@ function Project() {
         </div>
         <div class="face face2">
           <div class="content">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+            <p> <h1>Todo-List</h1><br/><br/> 설명~~~~ </p>
             <button>사이트</button>
           </div>
         </div>
@@ -27,12 +27,12 @@ function Project() {
     <div class="card">
         <div class="face face1">
           <div class="content">
-          <img src="https://i.ibb.co/KsqrnVN/kb-im.png" alt="kb-im" border="0"/>
+          <img src="https://i.ibb.co/16Ws6Jh/KB.jpg" alt="KB" border="0"/>
           </div>
         </div>
         <div class="face face2">
           <div class="content">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+            <p><h1>카카오뱅크 모작</h1><br/><br/> 설명~~~~</p>
             <button>사이트</button>
           </div>
         </div>

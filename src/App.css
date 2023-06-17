@@ -35,7 +35,7 @@ a{
 body{
   margin:0;
   padding:0;
-  height: 3000px;
+  height: 3500px;
   width: 100%;
   -webkit-user-select:none;
   -moz-user-select:none;
@@ -62,15 +62,14 @@ button {
   position: fixed;
   height: 5px;
   background-color: gray;
-  z-index: 1;
+  z-index: 100;
+  transition: .6s;
 }
 
 .Background-image {
-  background-image: url(background.jpg);
+  background-image: url(./img/background.jpg);
   height: 100vh;
   width: 100%;
-  background-attachment: fixed; 
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -84,6 +83,7 @@ button {
   margin-top: -10px;
   padding:20px;
   border-radius:5px 1px 15px 15px;
+  top:0;
   right: 10px;
   border:solid 8px white;
 }
@@ -103,7 +103,6 @@ button {
   letter-spacing:0.06rem;
 }
 .side-menu{
-  position: relative;
   height: 90px;
   width: 90px;
   border-radius: 45px;
@@ -112,13 +111,29 @@ button {
   flex-direction: column;
   position: fixed;
   margin-top: 60px;
-  z-index: 100;
+  margin-right: 30px;
 }
+
 .side-logo{
-  color:white;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 100001;
+
 }
-.fa-solid{
-  margin-top: 15px;
+.side1{
+  margin-top:100px;
+}
+.side2{
+  margin-top: 250px;
+}
+.side3{
+  margin-top: 400px;
+}
+.side4{
+  margin-top: 550px;
 }
 
 .section{
@@ -135,14 +150,16 @@ button {
 }
 
 .menu-box{
-  text-align: center;
-  z-index: 1;
+  border: 1px solid red;
   display: flex;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:50px;
+  text-align: center;
   font-size:3rem;
   justify-content: flex-end;
-  margin-right: 40px;
-  margin-bottom:70px;
-  padding-top:100px;
+  z-index: 10000;
 }
 
 .close{
@@ -208,7 +225,7 @@ button {
   font-weight: bold;
   text-align: center;
 }
-.menu-box>.side-menu:hover{
+.side-menu:hover{
   transition: transform 0.4s;
   transform:scale(1.1);
 }
@@ -241,12 +258,13 @@ h1{
   font-family:sans-serif;
   width: 100%;
   height: 100%;
+  margin-top:100px;
+  text-align: center;
 }
 
 .title-text-2{
-  position: absolute;
-  top:100px;
-  right: 300px;
+  width: 100%;
+  height: 100%;
   font-size: 7vmin;
   line-height: 5;
   letter-spacing:0.1rem;
@@ -302,17 +320,17 @@ h1{
 
 /* Skills */
 #Skills{
-  margin-left:470px;
+  margin-left:520px;
 }
 .Skills{
   background-color: white;
-  margin-left: 450px;
   height: auto;
-  max-width: 50%;
+  width: 900px;
   box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 15%),
   0px 3px 4px 0px rgb(0 0 0 / 12%),
   0px 1px 8px 0px rgb(0 0 0 / 30%);
   border-radius: 20px;
+  margin:0 auto;
 }
 .skills-img {
   justify-content: center;
@@ -496,6 +514,8 @@ h1{
   padding: 20px;
   box-sizing: border-box;
   transform: translateY(-300px);
+  border: 1px solid black;
+  background-color: ivory;
 }
 
 .container .card:hover .face.face2{
@@ -506,7 +526,7 @@ h1{
   text-decoration:none;
   color: black;
   box-sizing: border-box;
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 10px;
   margin: 15px 0 0;
   display: inline-block;
@@ -518,7 +538,7 @@ h1{
 }
 
 .card .face .content img{
-  border:5px solid black;
+  box-shadow: 3px 3px 3px;
 }
 /* Project */
 
@@ -526,21 +546,22 @@ h1{
 .contact{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   border-radius: 10px 10px 0 0;
-  margin-top: 50px;
-  height: 250px;
-  width: 196vh;
+  height: 26%;
+  width: 90%;
   background-color:#0e0e0e;
   background-repeat: no-repeat;
   background-size: cover;
+  margin:43px auto;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 .con-text{
   user-select: text;
   color:white;
-  display:inline;
   position: relative;
   font-size: 3.5rem;
-  top:35%;
-  left: 10%;
+  text-align: center;
+  align-items: center;
 }
 .con-phone{
   user-select: text;
@@ -548,9 +569,8 @@ h1{
   display:inline;
   position: relative;
   font-size: 2rem;
-  left:40%;
-  top:10%;
   font-weight: bold;
+  
 }
 
 .con-add{
@@ -560,5 +580,8 @@ h1{
   border:2px solid white;
   border-radius: 10px;
   padding:4px;
+}
+.con{
+  margin-left: 200px;
 }
 /* contact */
