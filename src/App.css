@@ -182,6 +182,7 @@ button {
   left:50%;
   transform:translateX(-50%) translateY(-50%);
   background-color: #D5D8DC;
+  border:20px solid white;
   width: 1000px;
   height: 500px;
   z-index: 1;
@@ -271,6 +272,7 @@ h1{
 /* Profile */
 .Profile{
   background-color: white;
+  border: 10px solid gray;
   display: flex;
   justify-content: flex-start;
   margin-left:30px;
@@ -319,6 +321,7 @@ h1{
 }
 .Skills{
   background-color: white;
+  border: 10px solid gray;
   height: auto;
   width: 900px;
   box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 15%),
@@ -431,6 +434,7 @@ h1{
 /* Project */
 .Pj{
   background-color: white;
+  border: 10px solid gray;
   margin-top: 30px;
   margin-left: 20px;
   height: 1000px;
