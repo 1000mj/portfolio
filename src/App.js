@@ -27,11 +27,11 @@ function App() {
         <div className='title'>
           <div className="title-text-2">천명진 포트폴리오 입니다.</div>
         </div>
-        <ul className="top-menu">
+        <div className="top-menu">
             <div  className='name-box'>
               <div id='root' className="menu top-name" onClick={openPopup}>Cheon Myeong Jin</div>
             </div>
-          </ul>
+          </div>
           {isShowPopup && <Topname onClose={closePopup} />}
         <div>
           <div className='menu-box'><li className="side-menu side1"><a href="#Home" className="side-logo fa-solid fa-house"></a></li></div>

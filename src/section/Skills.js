@@ -31,7 +31,7 @@ function Skills() {
             />
           </div>
         </span>
-        <h1 className="s1">ㅇㅇㅇ</h1>
+        <h1 className="s1">Learning</h1>
         <span className="skills-img">
           <div className="skills-ico s-ts">
             <img
