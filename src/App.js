@@ -39,7 +39,6 @@ function App() {
           <div className='menu-box '><li className="side-menu side3"><a href="#Skills" className="side-logo fa-solid fa-book"></a></li></div>
           <div className='menu-box '><li className="side-menu side4"><a href="#Pj" className="side-logo fa-solid fa-folder-open"></a></li></div>
         </div>
-        
       </div>
       <Profile/>
       <Skills/>
