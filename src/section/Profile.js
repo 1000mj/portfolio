@@ -6,7 +6,7 @@ function Profile() {
       <div id="Profile" className="section">
         Profile
       </div>
-      <div className="Profile">
+      <div className="Profile slide-in2">
         <div className="Prologo">
           <i className="fa-solid fa-user fa-5x"></i>
         </div>

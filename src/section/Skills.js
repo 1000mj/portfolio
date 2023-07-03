@@ -6,7 +6,7 @@ function Skills() {
       <div id="Skills" className="section section-s">
         Skills
       </div>
-      <div className="Skills">
+      <div className="Skills slide-in3">
         <h1 className="s1">Publish</h1>
         {/*사용중인것,공부하고있는것*/}
         <span className="skills-img si-1">

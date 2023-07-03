@@ -1,8 +1,4 @@
-@keyframes blink {
-  50% {
-    opacity: 0;
-  }
-}
+
 
 ::-webkit-scrollbar{
   width: 15px;
@@ -538,6 +534,22 @@ h1{
 .card .face .content img{
   box-shadow: 3px 3px 3px;
 }
+
+.card .face .content a{
+  color: black;
+  font-weight: bold;
+  border:1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+}
+.card .content a:hover{
+  background: gray ;
+  color: white;
+}
+.git{
+  margin-top: 50px;
+}
+
 /* Project */
 
 /* contact */
@@ -583,3 +595,37 @@ h1{
   margin-left: 200px;
 }
 /* contact */
+
+/* 스크롤감지 슬라이더 */
+.slide-in1 {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.slide-in1.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slide-in2{
+  opacity: 0;
+  transform: translateX(200px);
+  transition: opacity 1s, transform 1s;
+}
+
+.slide-in2.active{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-in3{
+  opacity: 0;
+  transform: translateX(-400px);
+  transition: opacity 1s, transform 1s;
+}
+
+.slide-in3.active{
+  opacity: 1;
+  transform: translateX(0);
+}

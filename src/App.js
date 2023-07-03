@@ -7,6 +7,7 @@ import Skills from './section/Skills';
 import Project from './section/Project';
 import './scrollgauge-bar';
 import './copy';
+import './showSlide';
 
 function App() {
   const [isShowPopup, setIsShowPopup] = useState(false);
