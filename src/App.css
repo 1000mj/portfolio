@@ -439,116 +439,78 @@ h1{
   0px 3px 4px 0px rgb(0 0 0 / 12%),
   0px 1px 8px 0px rgb(0 0 0 / 30%);
   border-radius: 20px;
-}
-
-.container{
-  position: relative;
   display: flex;
-  justify-content:space-around;
-  flex-wrap:wrap;
+  justify-content: space-around;
+  align-items: center;
   
 }
 
-.card{
-  position: relative;
-  align-items: center;
-  margin-top:7%;
-}
-
-.container .card .face{
-  width:550px;
-  height: 400px;
-  transition:.4s;
-  
-}
-
-.container .card .face.face1{
-  position: relative;
-  background:white;
-  display: flex;
-  justify-content: center;
-  align-content:center;
-  align-items: center;
-  z-index: 1;
-  transform: translateY(100px);
-}
-
-.container .card:hover .face.face1{
-  transform: translateY(0);
-}
-
-
-.container .card .face.face1 .content{
-  opacity: 1;
-  transition:  0.5s;
-  text-align: center;
-}
-
-.container .card:hover .face.face1 .content{
-  opacity: 1;
-}
-
-.container .card .face.face1 .content i{
-  font-size: 3em;
-  color: white;
+.flip-card {
+  background-color: transparent;
+  width: 490px;
+  height: 600px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
   display: inline-block;
 }
-
-.container .card .face.face1 .content h3{
-  font-size: 1em;
-  color: white;
-  text-align: center;
+.flip-card:nth-child(2){
+  width : 498px;
+  height: 643px;
+}
+.flip-card:nth-child(3){
+  width : 550px;
+  height: 550px;
 }
 
-.face.face2{
+.flip-card-inner {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  box-sizing: border-box;
-  transform: translateY(-300px);
-  background : linear-gradient(45deg,gray,white);
-
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
 }
 
-.container .card:hover .face.face2{
-    transform: translateY(0);
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
 }
 
-.card .content button{
-  text-decoration:none;
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
   color: black;
-  box-sizing: border-box;
-  border: 2px solid black;
-  padding: 10px;
-  margin: 15px 0 0;
-  display: inline-block;
 }
 
-.card .content button:hover{
-  background: gray ;
+.flip-card-back {
+  background-color: black;
   color: white;
+  transform: rotateY(180deg);
 }
 
-.card .face .content img{
-  box-shadow: 3px 3px 3px;
-}
-
-.card .face .content a{
-  color: black;
-  font-weight: bold;
-  border:1px solid black;
-  padding: 5px;
-  border-radius: 5px;
-}
-.card .content a:hover{
-  background: gray ;
-  color: white;
-}
-.git{
+.flip-card-back h1{
   margin-top: 50px;
 }
+.flip-card .flip-card-inner .flip-card-back a{
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border:3px solid white;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.flip-card .flip-card-inner .flip-card-back a:hover{
+  background: gray ;
+  color: white;
+}
+
 
 /* Project */
 
