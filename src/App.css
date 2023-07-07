@@ -29,7 +29,7 @@ a {
 body {
   margin: 0;
   padding: 0;
-  height: 3500px;
+  height: auto;
   width: 100%;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -78,7 +78,6 @@ button {
   padding: 20px;
   border-radius: 5px 1px 15px 15px;
   top: 0;
-  margin-left: 1600px;
   border: solid 8px white;
 }
 
@@ -131,14 +130,10 @@ button {
 .section {
   font-size: 3.5rem;
   font-weight: bold;
-  margin-left: 40px;
   margin-top: 5px;
   text-decoration: double underline;
   text-decoration-thickness: 4px;
   color: white;
-}
-.section-s {
-  margin-left: 160px;
 }
 
 .menu-box {
@@ -266,10 +261,8 @@ h1 {
   border: 10px solid gray;
   display: flex;
   justify-content: flex-start;
-  margin-left: 30px;
-  height: 500px;
-  width: 1860px;
-  border-radius: 20px;
+  height: auto;
+  width: 100%;
   font-family: "Courier New", Courier, monospace;
 }
 .Prologo {
@@ -296,6 +289,16 @@ h1 {
   margin-right: 8vw;
   width: 100%;
 }
+@media (max-width: 1000px) {
+  .Profile p {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .Profile p {
+    font-size: 1rem;
+  }
+}
 .intro {
   margin-top: 30px;
   font-size: 2.2rem;
@@ -307,18 +310,13 @@ h1 {
 /* Profile */
 
 /* Skills */
-#Skills {
-  margin-left: 520px;
-}
 .Skills {
   background-color: white;
   border: 10px solid gray;
   height: auto;
-  width: 900px;
+  width: 100%;
   box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 15%),
     0px 3px 4px 0px rgb(0 0 0 / 12%), 0px 1px 8px 0px rgb(0 0 0 / 30%);
-  border-radius: 20px;
-  margin-left: 520px;
 }
 .skills-img {
   justify-content: center;
@@ -326,16 +324,12 @@ h1 {
   display: flex;
   flex-wrap: wrap;
 }
-
-.si-1 {
-  width: 900px;
-  height: 300px;
+.s1:not(:first-child) {
+  border-top: 3px solid black;
 }
-
 /* Skills 아이콘 마우스오버효과 */
 
-.skills-img > .skills-ico {
-  justify-content: space-between;
+.skills-img .skills-ico {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -343,7 +337,6 @@ h1 {
   width: 200px;
   position: relative;
   overflow: hidden;
-  margin-bottom: 10px;
 }
 
 .skills-img > .skills-ico::after {
@@ -432,25 +425,20 @@ h1 {
 .Pj {
   background-color: white;
   border: 10px solid gray;
-  margin-top: 30px;
-  margin-left: 20px;
-  height: 1000px;
-  width: 1860px;
+  height: auto;
+  width: 100%;
   box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 15%),
     0px 3px 4px 0px rgb(0 0 0 / 12%), 0px 1px 8px 0px rgb(0 0 0 / 30%);
-  border-radius: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .flip-card {
-  background-color: transparent;
-  width: 490px;
-  height: 600px;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
-  display: inline-block;
+  display: flex;
 }
 .flip-card:nth-child(2) {
   width: 498px;
@@ -463,8 +451,8 @@ h1 {
 
 .flip-card-inner {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 490px;
+  height: 600px;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -483,7 +471,6 @@ h1 {
 }
 
 .flip-card-front {
-  background-color: #bbb;
   color: black;
 }
 
@@ -516,29 +503,24 @@ h1 {
 /* contact */
 .contact {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-
-  height: 230px;
+  height: auto;
   width: 100%;
   background: linear-gradient(45deg, white, black, black, white);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 43px auto;
+  position: relative;
+  margin-top: 50px;
   padding-top: 30px;
   padding-bottom: 50px;
+  text-align: center;
 }
 .con-text {
   user-select: text;
   color: white;
   position: relative;
   font-size: 3.5rem;
-  text-align: center;
-  align-items: center;
 }
 .con-phone {
   user-select: text;
   color: #f4f4f4;
-  display: inline;
-  position: relative;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -550,9 +532,6 @@ h1 {
   border: 2px solid white;
   border-radius: 10px;
   padding: 4px;
-}
-.con {
-  margin-left: 200px;
 }
 /* contact */
 
@@ -589,9 +568,9 @@ h1 {
   opacity: 1;
   transform: translateX(0);
 }
-
-@media (max-width: 600px) {
-  /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
+@media (max-width: 1200px) {
+}
+@media (max-width: 750px) {
   .menu-box {
     display: none;
   }
