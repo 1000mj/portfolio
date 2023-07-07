@@ -3,7 +3,9 @@ import React from "react";
 function Project() {
   return (
     <>
-      <div className="section">Project</div>
+      <div id="Pj" className="section">
+        Project
+      </div>
       <div className="Pj ">
         <div class="flip-card">
           <div class="flip-card-inner">

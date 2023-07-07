@@ -160,8 +160,6 @@ button {
 }
 
 .popup1 {
-  transition: transform 0.4s;
-  transform: scale(1.1);
   border-radius: 30px;
   position: absolute;
   padding: 30px;
