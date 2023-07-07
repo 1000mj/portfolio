@@ -8,7 +8,6 @@ function Skills() {
       </div>
       <div className="Skills slide-in3">
         <h1 className="s1">Publish</h1>
-        {/*사용중인것,공부하고있는것*/}
         <span className="skills-img si-1">
           <div className="skills-ico s-html">
             <img src="https://i.ibb.co/NKkTMyk/html.png" alt="" border="0" />
@@ -31,8 +30,28 @@ function Skills() {
             />
           </div>
         </span>
-        <h1 className="s1">Learning</h1>
+        <h1 className="s1">Frontend</h1>
         <span className="skills-img">
+          <div className="skills-ico s-html">
+            <img src="https://i.ibb.co/NKkTMyk/html.png" alt="" border="0" />
+          </div>
+          <div className="skills-ico s-css">
+            <img src="https://i.ibb.co/wBHGJvq/css.png" alt="" border="0" />
+          </div>
+          <div className="skills-ico s-js">
+            <img
+              src="https://i.ibb.co/3CZGGQw/javascript.png"
+              alt="javascript"
+              border="0"
+            />
+          </div>
+          <div className="skills-ico s-react">
+            <img
+              src="https://i.ibb.co/b2hV55B/react.png"
+              alt="react"
+              border="0"
+            />
+          </div>
           <div className="skills-ico s-ts">
             <img
               src="https://i.ibb.co/TkpPdfQ/typescript.png"
@@ -40,6 +59,30 @@ function Skills() {
               border="0"
             />
           </div>
+          <div className="skills-ico s-tailwind">
+            <img
+              src="https://i.ibb.co/Pg16FWw/tailwind.png"
+              alt="tailwind"
+              border="0"
+            />
+          </div>
+          <div className="skills-ico s-jquery">
+            <img
+              src="https://i.ibb.co/SxTXkVD/jquery.jpg"
+              alt="jquery"
+              border="0"
+            />
+          </div>
+          <div className="skills-ico s-bootstrap">
+            <img
+              src="https://i.ibb.co/kGdHQbj/bootstrap.jpg"
+              alt="bootstrap"
+              border="0"
+            />
+          </div>
+        </span>
+        <h1 className="s1">Learning</h1>
+        <span className="skills-img">
           <div className="skills-ico s-py">
             <img
               src="https://i.ibb.co/QMXmgj5/python.png"
@@ -55,7 +98,7 @@ function Skills() {
             />
           </div>
         </span>
-        </div>
+      </div>
     </>
   );
 }
