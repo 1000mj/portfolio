@@ -12,6 +12,7 @@
 
 html {
   scroll-behavior: smooth;
+  height: -webkit-fill-available;
 }
 
 a {
@@ -26,7 +27,15 @@ a {
   padding: 0px;
 }
 
+@supports (-webkit-touch-callout: none) {
+  body {
+    html: -webkit-fill-available;
+  }
+}
+
 body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
   margin: 0;
   padding: 0;
   height: auto;
@@ -71,29 +80,30 @@ button {
   display: flex;
   position: absolute;
   background-color: black;
-  height: 100px;
-  width: 270px;
+  width: auto;
+  height: auto;
   text-align: center;
-  margin-top: -10px;
+  align-items: center;
   padding: 20px;
-  border-radius: 5px 1px 15px 15px;
+  border-radius: 0 0 15px 0;
   top: 0;
-  border: solid 8px white;
+  border: solid 6px white;
 }
 
 .top-name {
-  margin-top: -15px;
   color: white;
-  font-size: 25.2px;
   font-weight: 900;
 }
 
 .menu {
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: 25px;
+  font-size: 1.9rem;
   cursor: pointer;
   letter-spacing: 0.06rem;
+}
+@media (max-width: 800px) {
+  .menu {
+    font-size: 1.1rem;
+  }
 }
 .side-menu {
   height: 90px;
@@ -534,38 +544,28 @@ h1 {
 /* contact */
 
 /* 스크롤감지 슬라이더 */
-.slide-in1 {
+.slide-in-profile {
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 0.5s, transform 0.5s;
 }
 
-.slide-in1.active {
+.slide-in-profile.active {
   opacity: 1;
   transform: translateY(0);
 }
 
-.slide-in2 {
+.slide-in-skills {
   opacity: 0;
-  transform: translateY(100px);
+  transform: translateX(-100px);
   transition: opacity 1s, transform 1s;
 }
 
-.slide-in2.active {
+.slide-in-skills.active {
   opacity: 1;
   transform: translateX(0);
 }
 
-.slide-in3 {
-  opacity: 0;
-  transform: translateX(-400px);
-  transition: opacity 1s, transform 1s;
-}
-
-.slide-in3.active {
-  opacity: 1;
-  transform: translateX(0);
-}
 @media (max-width: 1200px) {
 }
 @media (max-width: 750px) {

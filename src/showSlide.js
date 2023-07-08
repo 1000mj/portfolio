@@ -8,11 +8,11 @@ function debounce(func, delay) {
 
 function checkSlide() {
   const slideElements = document.querySelectorAll(
-    ".slide-in1,.slide-in2,.slide-in3"
+    ".slide-in-profile,.slide-in-skills"
   );
   slideElements.forEach(element => {
     const slideInAt =
-      window.scrollY + window.innerHeight - element.offsetHeight / 2;
+      window.scrollY + window.innerHeight - element.offsetHeight / 5;
     const elementBottom = element.offsetTop + element.offsetHeight;
 
     if (slideInAt > element.offsetTop && window.scrollY < elementBottom) {

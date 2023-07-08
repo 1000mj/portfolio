@@ -7,7 +7,7 @@ function Profile() {
         Profile
       </div>
       <div className="Profile-box">
-        <div className="Profile slide-in2">
+        <div className="Profile slide-in-profile">
           <div className="Prologo">
             <i className="fa-solid fa-user fa-5x"></i>
           </div>

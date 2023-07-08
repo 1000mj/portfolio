@@ -24,7 +24,7 @@ function App() {
     <>
       <div>
         <div id="gauge-bar"></div>
-        <div id="Home" className="Background-image main">
+        <div id="Home" className="Background-image">
           <div className="title">
             <div className="title-text-2">천명진 포트폴리오 입니다.</div>
           </div>

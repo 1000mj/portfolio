@@ -6,7 +6,7 @@ function Skills() {
       <div id="Skills" className="section">
         Skills
       </div>
-      <div className="Skills slide-in3">
+      <div className="Skills slide-in-skills">
         <h1 className="s1">Publish</h1>
         <span className="skills-img si-1">
           <div className="skills-ico s-html">
