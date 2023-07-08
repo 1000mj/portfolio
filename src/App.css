@@ -13,6 +13,7 @@
 html {
   scroll-behavior: smooth;
   height: -webkit-fill-available;
+  overflow-x: hidden;
 }
 
 a {
@@ -27,15 +28,8 @@ a {
   padding: 0px;
 }
 
-@supports (-webkit-touch-callout: none) {
-  body {
-    html: -webkit-fill-available;
-  }
-}
-
 body {
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
   height: auto;
@@ -76,6 +70,11 @@ button {
   background-size: cover;
 }
 
+@media (max-width: 800px) {
+  .Background-image {
+    background-image: none;
+  }
+}
 .top-menu {
   display: flex;
   position: absolute;
@@ -102,7 +101,10 @@ button {
 }
 @media (max-width: 800px) {
   .menu {
-    font-size: 1.1rem;
+    display: none;
+  }
+  .top-menu {
+    display: none;
   }
 }
 .side-menu {
@@ -182,7 +184,6 @@ button {
   height: 500px;
   z-index: 1;
 }
-
 .tn-git {
   margin-left: 30px;
 }
