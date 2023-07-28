@@ -138,7 +138,34 @@ button {
 .side4 {
   margin-top: 550px;
 }
-
+/* 햄버거메뉴 */
+@media (max-width: 750px) {
+  .hamburger-menu {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+  .hamburger-menu .bar:nth-child(1) {
+    transform: translateY(0px);
+  }
+  .hamburger-menu .bar:nth-child(2) {
+    transform: translateY(8px);
+  }
+  .hamburger-menu .bar:nth-child(3) {
+    transform: translateY(16px);
+  }
+  .bar {
+    height: 5px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+}
+.hbg-close {
+}
 .section {
   font-size: 3.5rem;
   font-weight: bold;
@@ -241,6 +268,9 @@ button {
 
 h1 {
   text-align: center;
+}
+h2 {
+  font-weight: lighter;
 }
 
 .title {
@@ -346,6 +376,7 @@ h1 {
   width: 200px;
   position: relative;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .skills-img > .skills-ico::after {
@@ -404,6 +435,15 @@ h1 {
 .s-bootstrap::before {
   content: "Bootstrap";
 }
+.s-github::before {
+  content: "Github";
+}
+.s-git::before {
+  content: "Git";
+}
+.s-nextjs::before {
+  content: "Next.js";
+}
 .skills-ico:hover::after {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -448,6 +488,7 @@ h1 {
   border: 1px solid #f1f1f1;
   perspective: 1000px;
   display: flex;
+  transform: scaleX(0.9) scaleY(0.9);
 }
 .flip-card:nth-child(2) {
   width: 498px;

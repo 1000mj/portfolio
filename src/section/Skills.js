@@ -97,6 +97,26 @@ function Skills() {
               border="0"
             />
           </div>
+          <div className="skills-ico s-nextjs">
+            <img
+              src="https://i.ibb.co/Gpj1JLZ/NEXT-js.png"
+              alt="NEXT-js"
+              border="0"
+            />
+          </div>
+        </span>
+        <h1 className="s1">etc.</h1>
+        <span className="skills-img">
+          <div className="skills-ico s-github">
+            <img
+              src="https://i.ibb.co/7gc4MyQ/1s-github.png"
+              alt="1s-github"
+              border="0"
+            />
+          </div>
+          <div className="skills-ico s-git">
+            <img src="https://i.ibb.co/wdNPJrp/git.png" alt="git" border="0" />
+          </div>
         </span>
       </div>
     </>
