@@ -3,13 +3,6 @@ import React, { useState } from "react";
 function Menu() {
   return (
     <>
-      <div class="hamburger-menu">
-        <div class="bar"></div>
-
-        <div class="bar"></div>
-
-        <div class="bar"></div>
-      </div>
       <div>
         <div className="menu-box">
           <li className="side-menu side1">

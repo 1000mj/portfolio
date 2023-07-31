@@ -21,7 +21,6 @@ function checkSlide() {
       element.classList.remove("active");
     }
   });
-  window.removeEventListener("scroll", slideElements);
 }
 
 window.addEventListener("scroll", debounce(checkSlide, 1));

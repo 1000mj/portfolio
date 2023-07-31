@@ -3,7 +3,7 @@ import React from "react";
 function Project() {
   return (
     <>
-      <div id="Pj" className="section ">
+      <div id="Pj" className="section">
         Project
       </div>
       <div className="Pj">

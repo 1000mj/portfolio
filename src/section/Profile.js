@@ -3,11 +3,11 @@ import React from "react";
 function Profile() {
   return (
     <>
-      <div id="Profile" className="section">
-        Profile
-      </div>
-      <div className="Profile-box">
-        <div className="Profile slide-in-profile">
+      <div className="profile-box slide-in-profile">
+        <div id="Profile" className="section">
+          Profile
+        </div>
+        <div className="Profile ">
           <div className="Prologo">
             <i className="fa-solid fa-user fa-5x"></i>
           </div>

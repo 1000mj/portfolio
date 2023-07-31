@@ -26,6 +26,7 @@ function App() {
       <div>
         <div id="gauge-bar"></div>
         <div id="Home" className="Background-image">
+          {isShowPopup && <Topname onClose={closePopup} />}
           <div className="title">
             <div className="title-text-2">천명진 포트폴리오 입니다.</div>
           </div>
@@ -36,7 +37,6 @@ function App() {
               </div>
             </div>
           </div>
-          {isShowPopup && <Topname onClose={closePopup} />}
         </div>
         <Menu />
         <Profile />
