@@ -32,7 +32,11 @@ function App() {
           </div>
           <div className="top-menu">
             <div className="name-box">
-              <div id="root" className="menu top-name" onClick={openPopup}>
+              <div
+                id="root"
+                className="menu top-name blink"
+                onClick={openPopup}
+              >
                 Cheon Myeong Jin
               </div>
             </div>

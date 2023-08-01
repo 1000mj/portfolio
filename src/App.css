@@ -9,6 +9,15 @@
   background-color: white;
   border-radius: 3px;
 }
+@keyframes blink-effect {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.blink {
+  animation: blink-effect 2.5s step-end infinite;
+}
 
 html {
   scroll-behavior: smooth;
@@ -84,30 +93,28 @@ button {
   text-align: center;
   align-items: center;
   padding: 20px;
-  border-radius: 0 0 15px 0;
-  top: 0;
+  border-radius: 0 0 15px 15px;
+  top: -5px;
   border: solid 6px white;
 }
 
 .top-name {
   color: white;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .menu {
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   cursor: pointer;
   letter-spacing: 0.06rem;
+  transition: 1s;
 }
 @media (max-width: 800px) {
-  .menu {
-    display: none;
-  }
-  .top-menu {
-    display: none;
-  }
   .popup-box {
     display: none;
+  }
+  .menu {
+    font-size: 1.3rem;
   }
 }
 .side-menu {
@@ -238,7 +245,8 @@ button {
 }
 
 .name-box {
-  transition: 1s;
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: row-reverse;
 }
@@ -286,6 +294,19 @@ h2 {
   width: 100%;
   font-family: "Courier New", Courier, monospace;
 }
+@media (max-width: 1000px) {
+  .Profile p {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .Profile p {
+    font-size: 1rem;
+  }
+}
+.Profile p {
+  transition: 0.7s;
+}
 .Prologo {
   margin-left: 20px;
   margin-right: 100px;
@@ -310,16 +331,7 @@ h2 {
   margin-right: 8vw;
   width: 100%;
 }
-@media (max-width: 1000px) {
-  .Profile p {
-    font-size: 1.5rem;
-  }
-}
-@media (max-width: 500px) {
-  .Profile p {
-    font-size: 1rem;
-  }
-}
+
 .intro {
   margin-top: 30px;
   font-size: 2.2rem;
@@ -593,8 +605,6 @@ h2 {
   transform: translateX(0);
 }
 
-@media (max-width: 1200px) {
-}
 @media (max-width: 750px) {
   .menu-box {
     display: none;
