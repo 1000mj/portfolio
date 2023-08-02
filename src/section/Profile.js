@@ -13,8 +13,10 @@ function Profile() {
           </div>
           <div className="p-section">
             <p className="intro-title">
-              ● 더 나은 미래와 내일을 위해 노력한다.
+              ● 하기싫은데 억지로하는사람과, 하고싶어서 하는사람의 차이.
             </p>
+            <br />
+            <br />
             <p className="intro">
               안녕하세요, 프론트엔드 개발자 지망생 천명진입니다. 비전공자
               출신이지만 열심히만 한다면 못할게 없다는 마음가짐으로 항상 새로운
