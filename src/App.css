@@ -287,8 +287,8 @@ h2 {
 
 /* Profile */
 .Profile {
-  background-color: white;
-  border: 10px solid gray;
+  background-image: linear-gradient(to bottom, white, #383737);
+  border: 3px solid gray;
   display: flex;
   justify-content: flex-start;
   height: auto;
@@ -346,12 +346,10 @@ h2 {
 
 /* Skills */
 .Skills {
-  background-color: white;
-  border: 10px solid gray;
+  background-image: linear-gradient(to bottom, white, #383737);
+  border: 3px solid gray;
   height: auto;
   width: 100%;
-  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 15%),
-    0px 3px 4px 0px rgb(0 0 0 / 12%), 0px 1px 8px 0px rgb(0 0 0 / 30%);
 }
 .skills-img {
   justify-content: center;
@@ -471,8 +469,8 @@ h2 {
 
 /* Project */
 .Pj {
-  background-color: white;
-  border: 10px solid gray;
+  background-image: linear-gradient(to bottom, white, #383737);
+  border: 3px solid gray;
   height: auto;
   width: 100%;
   box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 15%),
@@ -489,15 +487,6 @@ h2 {
   display: flex;
   transform: scaleX(0.9) scaleY(0.9);
 }
-.flip-card:nth-child(2) {
-  width: 498px;
-  height: 643px;
-}
-.flip-card:nth-child(3) {
-  width: 550px;
-  height: 550px;
-}
-
 .flip-card-inner {
   position: relative;
   width: 490px;
@@ -520,7 +509,7 @@ h2 {
 }
 
 .flip-card-front {
-  color: black;
+  color: white;
 }
 
 .flip-card-back {
