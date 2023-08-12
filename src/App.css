@@ -513,7 +513,7 @@ h2 {
 }
 
 .flip-card-back {
-  background-color: black;
+  background-image: linear-gradient(to bottom, black, gray);
   color: white;
   transform: rotateY(180deg);
 }
