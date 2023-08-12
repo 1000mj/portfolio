@@ -1,8 +1,37 @@
-window.addEventListener('scroll', function() {
-    var gaugeBar = document.getElementById('gauge-bar');
-    var scrollPosition = window.scrollY || window.pageYOffset;
-    var pageHeight = document.documentElement.scrollHeight;
-    var windowHeight = window.innerHeight;
-    var fillRatio = scrollPosition / (pageHeight - windowHeight);
-    gaugeBar.style.width = (fillRatio * 100) + '%';
-});
+import React, { useState, useEffect } from "react";
+
+function ScrollGaugeBar() {
+  const [gaugeWidth, setGaugeWidth] = useState("0%");
+
+  useEffect(() => {
+    function updateGaugeWidth() {
+      const scrollPosition = window.scrollY || window.pageYOffset;
+      const pageHeight = document.documentElement.scrollHeight;
+      const windowHeight = window.innerHeight;
+      const fillRatio = (scrollPosition / (pageHeight - windowHeight)) * 100;
+      setGaugeWidth(`${fillRatio}%`);
+    }
+
+    window.addEventListener("scroll", updateGaugeWidth);
+    return () => {
+      window.removeEventListener("scroll", updateGaugeWidth);
+    };
+  }, []);
+
+  return (
+    <div>
+      <div
+        id="gauge-bar"
+        style={{
+          width: gaugeWidth,
+          height: "5px",
+          backgroundColor: "gray",
+          position: "fixed"
+        }}
+      ></div>
+      {/* Rest of your React components */}
+    </div>
+  );
+}
+
+export default ScrollGaugeBar;

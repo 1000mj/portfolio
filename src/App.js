@@ -6,7 +6,8 @@ import "./App.css";
 import Skills from "./section/Skills";
 import Project from "./section/Project";
 import Menu from "./section/Menu";
-import "./scrollgauge-bar";
+// import "./scrollgauge-bar";
+import ScrollGaugeBar from "./scrollgauge-bar";
 import "./copy";
 import "./showSlide";
 
@@ -24,7 +25,7 @@ function App() {
   return (
     <>
       <div>
-        <div id="gauge-bar"></div>
+        <ScrollGaugeBar />
         <div id="Home" className="Background-image">
           {isShowPopup && <Topname onClose={closePopup} />}
           <div className="title">

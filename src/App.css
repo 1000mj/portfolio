@@ -65,9 +65,6 @@ button {
 }
 
 #gauge-bar {
-  position: fixed;
-  height: 5px;
-  background-color: gray;
   z-index: 100;
   transition: 0.6s;
 }
