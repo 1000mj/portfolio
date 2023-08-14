@@ -1,4 +1,4 @@
-# <a href="https://1000mj.github.io/portfolio/" target="_black">포트폴리오 주소</a>
+# <a href="https://1000mj.github.io/portfolio/" target="_blank">포트폴리오 주소</a>
 
 ## 1.프로젝트 목표
 - React기반 포트폴리오를 만들어보자
