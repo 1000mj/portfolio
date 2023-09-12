@@ -144,18 +144,20 @@ function Project() {
               />
             </div>
             <div class="flip-card-back">
-              <h1>숙박web 팀프로젝트 진행중</h1>
+              <h1>포트폴리오 v2</h1>
               <p>.................</p>
               <br />
               <br />
               <br />
               <br />
-              <h2>제작중</h2>
+              <h2>
+                bootstrap을 사용한 fullpagescroll 포트폴리오 제작중입니다.
+              </h2>
               <br />
               <br />
               <br />
               <a
-                href="https://github.com/1000mj/Hospitality-react"
+                href="https://github.com/1000mj/fullPage_portfolio"
                 target="_blank"
               >
                 {" "}

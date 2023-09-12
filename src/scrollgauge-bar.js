@@ -29,7 +29,6 @@ function ScrollGaugeBar() {
           position: "fixed"
         }}
       ></div>
-      {/* Rest of your React components */}
     </div>
   );
 }

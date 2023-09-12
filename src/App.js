@@ -6,7 +6,6 @@ import "./App.css";
 import Skills from "./section/Skills";
 import Project from "./section/Project";
 import Menu from "./section/Menu";
-// import "./scrollgauge-bar";
 import ScrollGaugeBar from "./scrollgauge-bar";
 import "./copy";
 import "./showSlide";

@@ -53,13 +53,7 @@ function Skills() {
                 border="0"
               />
             </div>
-            <div className="skills-ico s-ts">
-              <img
-                src="https://i.ibb.co/TkpPdfQ/typescript.png"
-                alt="typescript"
-                border="0"
-              />
-            </div>
+
             <div className="skills-ico s-tailwind">
               <img
                 src="https://i.ibb.co/3yCYTtV/tailwindcss.png"
@@ -81,6 +75,16 @@ function Skills() {
                 border="0"
               />
             </div>
+          </span>
+          <h1 className="s1">Learning</h1>
+          <span className="skills-img">
+            <div className="skills-ico s-ts">
+              <img
+                src="https://i.ibb.co/TkpPdfQ/typescript.png"
+                alt="typescript"
+                border="0"
+              />
+            </div>
             <div className="skills-ico s-redux">
               <img
                 src="https://i.ibb.co/86wrS49/reduxx.png"
@@ -88,9 +92,6 @@ function Skills() {
                 border="0"
               />
             </div>
-          </span>
-          <h1 className="s1">Learning</h1>
-          <span className="skills-img">
             <div className="skills-ico s-py">
               <img
                 src="https://i.ibb.co/QMXmgj5/python.png"
