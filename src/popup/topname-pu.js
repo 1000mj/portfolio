@@ -18,10 +18,9 @@ function Topname(props) {
             >
               <img
                 className="com-hover"
-                src="https://ifh.cc/g/J2jxn4.png"
+                src="https://i.ibb.co/0jPNTcs/velog.png"
+                alt="velog"
                 border="0"
-                width={"auto"}
-                height={"auto"}
               />
             </a>
             {/* 깃허브 */}
@@ -32,7 +31,8 @@ function Topname(props) {
             >
               <img
                 className="com-hover"
-                src="https://ifh.cc/g/s6Xz0l.png"
+                src="https://i.ibb.co/Rj2dmrL/github.png"
+                alt="github"
                 border="0"
               />
             </a>
@@ -44,16 +44,14 @@ function Topname(props) {
             >
               <img
                 className="com-hover"
-                src="https://ifh.cc/g/FMfBO3.png"
+                src="https://i.ibb.co/gzwXqtk/kakaotalk.png"
                 border="0"
               />
             </a>
           </div>
 
           <button onClick={onClose}>
-            <div className="close">
-              <img src="https://i.ibb.co/6Yf8Xhz/close-button.png" />
-            </div>
+            <div className="close">x</div>
           </button>
         </div>
       </div>
