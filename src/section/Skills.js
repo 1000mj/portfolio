@@ -123,13 +123,6 @@ function Skills() {
                 border="0"
               />
             </div>
-            <div className="skills-ico s-git">
-              <img
-                src="https://i.ibb.co/s39XCLf/git.png"
-                alt="git"
-                border="0"
-              />
-            </div>
           </span>
         </div>
       </div>

@@ -21,6 +21,14 @@ function App() {
     setIsShowPopup(!isShowPopup);
   };
 
+  // 이메일 복사 함수 정의
+  const copyText = () => {
+    const emailText = document.getElementById("copyTarget");
+    emailText.select();
+    document.execCommand("copy");
+    alert("이메일이 복사되었습니다!");
+  };
+
   return (
     <>
       <div>
@@ -51,11 +59,8 @@ function App() {
           <br />
           <br />
           <div className="con-phone con">
-            Phone │ 010-4688-7738 / E-mail │{" "}
-            <button className="con-add">cjsaudwls12@naver.com</button> /{" "}
-            <button id="copyTarget" className="con-add" onClick="copyText()">
-              cjsaudwls12@naver.com
-            </button>
+            Phone │ 010-4688-7738 <br/> E-mail │{" "}
+            <button className="con-add">cjsaudwls12@gmail.com</button>
           </div>
         </div>
       </div>
