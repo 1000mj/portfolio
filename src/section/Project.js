@@ -138,6 +138,33 @@ function Project() {
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img
+                src="https://i.ibb.co/8D748dtf/image.png"
+                border="0"
+                alt="weather"
+              />
+            </div>
+            <div class="flip-card-back">
+              <h1>로컬트립가이드</h1>
+              <p>.................</p>
+              <br />
+              <br />
+              <br />
+              <br />
+              <h2>회사 홈페이지 구축 사이트입니다.<br/>아임웹 웹사이트 제작 툴을 사용했습니다<br/>전 부분 코드삽입 기능으로 제작 되었으며, 퍼블리싱을 담당했습니다.</h2>
+              <br />
+              <br />
+              <br />
+              <a href="https://localtripguide.kr/" target="_blank">
+                {" "}
+                URL
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
                 src="https://i.postimg.cc/4NBsn6tw/image.png"
                 border="0"
                 alt="image"

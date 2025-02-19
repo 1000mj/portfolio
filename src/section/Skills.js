@@ -56,21 +56,21 @@ function Skills() {
 
             <div className="skills-ico s-tailwind">
               <img
-                src="https://i.ibb.co/3yCYTtV/tailwindcss.png"
+                src="https://i.ibb.co/mFh5zc3Z/tailwindcss.png"
                 alt="tailwindcss"
                 border="0"
               />
             </div>
             <div className="skills-ico s-jquery">
               <img
-                src="https://i.ibb.co/3SM58qq/jquery.png"
+                src="https://i.ibb.co/d4fRWVrJ/jquery.png"
                 alt="jquery"
                 border="0"
               />
             </div>
             <div className="skills-ico s-bootstrap">
               <img
-                src="https://i.ibb.co/RTCq2C0/bootstrap.png"
+                src="https://i.ibb.co/fY8kKj6p/bootstrap.png"
                 alt="bootstrap"
                 border="0"
               />
@@ -87,7 +87,7 @@ function Skills() {
             </div>
             <div className="skills-ico s-redux">
               <img
-                src="https://i.ibb.co/86wrS49/reduxx.png"
+                src="https://i.ibb.co/PsXJRb6n/reduxx.png"
                 alt="reduxx"
                 border="0"
               />
@@ -108,7 +108,7 @@ function Skills() {
             </div>
             <div className="skills-ico s-nextjs">
               <img
-                src="https://i.ibb.co/Gpj1JLZ/NEXT-js.png"
+                src="https://i.ibb.co/cm43mfr/NEXT-js.png"
                 alt="NEXT-js"
                 border="0"
               />
@@ -118,7 +118,7 @@ function Skills() {
           <span className="skills-img">
             <div className="skills-ico s-github">
               <img
-                src="https://i.ibb.co/W6r8gYP/github.png"
+                src="https://i.ibb.co/MkzJnJ4w/githubb.png"
                 alt="github"
                 border="0"
               />
